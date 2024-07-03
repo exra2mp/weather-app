@@ -1,0 +1,36 @@
+/* Main Structure */
+
+.ask-form-country {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/* Text Field */
+
+.ask-input-country {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #b79e39;
+    outline: none;
+}
+
+/* Check Guess Button */
+
+.guess-boton-country {
+  padding: 16px;
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #b79e39;
+  color: #fff;
+  text-transform: capitalize;
+}
